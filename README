@@ -1,0 +1,15 @@
+    Copyright (C) 2008 Thomas Pani
+    
+    Copying and distribution of this file, with or without modification,
+    are permitted in any medium without royalty provided the copyright
+    notice and this notice are preserved.
+
+This is ThinkHDAPS, a disk protection monitor.
+
+To install, run:
+  $ ./configure
+  $ make
+and as root:
+  $ make install
+
+See INSTALL for details.

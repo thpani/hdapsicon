@@ -183,7 +183,7 @@ class ThinkHDAPSApplet(gtk.StatusIcon):
                 else:
                     self.set_from_pixbuf(icon_running)
 
-                tt_text = "HDAPS running\n"
+                tt_text = "HDAPS enabled\n"
                 for device in self.paused:
                     status = self.paused[device]
                     status_text = ""

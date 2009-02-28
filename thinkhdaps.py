@@ -1,5 +1,5 @@
 #!@PYTHON@
-# Copyright (c) 2008  Thomas Pani <thomas.pani@gmail.com>
+# Copyright (c) 2008-2009  Thomas Pani <thomas.pani@gmail.com>
 # based on an awn applet Copyright (c) 2008  onox <denkpadje@gmail.com>
 # 
 # This program is free software: you can redistribute it and/or modify
@@ -188,11 +188,11 @@ class ThinkHDAPSApplet(gtk.StatusIcon):
                     status = self.paused[device]
                     status_text = ""
                     if status == -1:
-                        status_text = "Error reading protect file."
+                        status_text = "error reading protect file"
                     elif status is None:
                         continue    # ignore devices that don't support HDAPS.
                     elif status == 0:
-                        status_text = "Running"
+                        status_text = "running"
                     else:
                         status_text = "Parked (%.3fs remaining)" % \
                             self.paused[device]

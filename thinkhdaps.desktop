@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ThinkHDAPS
+Comment=Monitor your HDAPS-enabled harddisk
+Exec=thinkhdaps
+Icon=thinkhdaps-logo.svg
+Type=Application
+Categories=System

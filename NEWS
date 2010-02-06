@@ -8,6 +8,7 @@
 Changes from 0.2 to 0.2.1
 -------------------------
     + fix newline issue w/ multiple devices (thanks to Andy Piper)
+	+ autoconf/automake support for desktop entries (using --enable-desktop)
 
 Changes from 0.1.1 to 0.2
 -------------------------

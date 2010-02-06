@@ -42,7 +42,7 @@ if '2.6.27' <= platform.release():
     PROTECT_FACTOR = 1000
 
 # Images used as the applet's icon to reflect the current status of HDAPS.
-IMAGE_DIR = '@pkgdatadir@'
+IMAGE_DIR = '@pixmapdir@'
 icon_running = gtk.gdk.pixbuf_new_from_file(
         os.path.join(IMAGE_DIR, "thinkhdaps-logo.svg"))
 icon_paused = gtk.gdk.pixbuf_new_from_file(

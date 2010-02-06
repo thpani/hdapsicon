@@ -183,7 +183,7 @@ class ThinkHDAPSApplet(gtk.StatusIcon):
                 else:
                     self.set_from_pixbuf(icon_running)
 
-                tt_text = "HDAPS enabled\n"
+                tt_text = "HDAPS enabled"
                 for device in self.paused:
                     status = self.paused[device]
                     status_text = ""
@@ -196,7 +196,7 @@ class ThinkHDAPSApplet(gtk.StatusIcon):
                     else:
                         status_text = "Parked (%.3fs remaining)" % \
                             self.paused[device]
-                    tt_text += "%s: %s" % (device, str(status_text))
+                    tt_text += "\n%s: %s" % (device, str(status_text))
                 self.set_tooltip(tt_text)
 
             else:

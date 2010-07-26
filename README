@@ -6,6 +6,8 @@
 
 This is ThinkHDAPS, a disk protection monitor.
 
+Dependencies: Python, PyGTK, gnome-python, librsvg
+
 To install, run:
   $ ./configure
   $ make

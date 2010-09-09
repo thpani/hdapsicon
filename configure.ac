@@ -1,5 +1,5 @@
 AC_PREREQ(2.65)
-AC_INIT(thinkhdaps, 0.2.1, thomas.pani@gmail.com)
+AC_INIT(hdapsicon, 0.3, thomas.pani@gmail.com)
 AC_PROG_SED
 AC_ARG_ENABLE([desktop],
 			  [  --enable-desktop    Create a desktop entry],
@@ -9,6 +9,6 @@ AC_ARG_ENABLE([desktop],
 				*) AC_MSG_ERROR([bad value ${enableval} for --enable-desktop]) ;;
 			   esac],[desktop=false])
 AM_CONDITIONAL([MAKE_DESKTOP_ENTRY], [test x$desktop = xtrue])
-AM_INIT_AUTOMAKE(thinkhdaps, 0.2.1)
+AM_INIT_AUTOMAKE(hdapsicon, 0.3)
 AM_PATH_PYTHON
 AC_OUTPUT(Makefile)

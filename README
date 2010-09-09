@@ -4,7 +4,8 @@
     are permitted in any medium without royalty provided the copyright
     notice and this notice are preserved.
 
-This is ThinkHDAPS, a disk protection monitor.
+This is HDAPSicon (formerly also known as ThinkHDAPS), a disk protection
+monitor.
 
 Dependencies: Python, PyGTK, gnome-python, librsvg
 Please find the packages specific to your distro and install them.
